@@ -24,7 +24,7 @@ Cut fields, characters `echo hello | cut -c 2-5`
 
 ## dig
 
-DNS lookup `dig docker-registry.xara.com`
+DNS lookup `dig www.xara.com`
 
 ## find
 

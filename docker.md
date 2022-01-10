@@ -50,7 +50,7 @@ Remove all images (force)
   `docker rmi -f $(docker images -q)`
 
 ### Exec
-  `docker exec -ti xaracom-wp-web bash`
+  `docker exec -ti CONTAINER bash`
 
 ### Commit
   `docker commit CONTAINERID IMAGE`

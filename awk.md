@@ -13,7 +13,7 @@ awk '{++c} {print c ") " $1} END {print "Total:" c}' file.txt #
 ## Extract emails for SQL query
 
 ```sh
-echo bob@xara.com,1 > b.csv
+echo bob@acme.com,1 > b.csv
 awk -F "\"*,\"*" '{print "'\''"$1"'\'',"}' b.csv >> query.sql
 
 ```

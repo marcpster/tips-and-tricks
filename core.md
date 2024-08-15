@@ -40,8 +40,8 @@ DNS lookup `dig www.xara.com`
 
 - Files matching A *AND* B
   ```s
-    # Find Camelot modal dialog files that use a timer.
-    find . -type f -exec grep -q MODAL {} \; -exec grep -q TIMER {} \; -print
+    # Find files with text THING1 and THING2
+    find . -type f -exec grep -q THING1 {} \; -exec grep -q THING2 {} \; -print
   ```
 - Files matching A but *NOT* B
 
